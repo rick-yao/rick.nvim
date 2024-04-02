@@ -1,0 +1,16 @@
+{
+  "custom function": {
+    "prefix": "cf",
+    "body": [
+      "type Args = {$1}",
+      "",
+      "const $TM_FILENAME_BASE = ({}:Args) => {}",
+      "",
+      "export {$TM_FILENAME_BASE}"
+    ],
+    "description": "custom function",
+    "luasnip": {
+      "priority": 1001
+    }
+  }
+}

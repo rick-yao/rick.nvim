@@ -1,0 +1,12 @@
+{
+  "consoleLog": {
+    "prefix": "cl",
+    "body": [
+      "console.log($1)"
+    ],
+    "description": "Log output to console",
+    "luasnip": {
+      "priority": 1000
+    }
+  }
+}
