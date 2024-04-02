@@ -32,6 +32,8 @@ return {
         spell = false, -- sets vim.opt.spell
         signcolumn = "auto", -- sets vim.opt.signcolumn to auto
         wrap = false, -- sets vim.opt.wrap
+        iskeyword = vim.opt.iskeyword + { "-", "#" }, -- sets vim.opt.iskeyword
+        scrolloff = 5,
       },
       g = { -- vim.g.<key>
         -- configure global vim variables (vim.g)
