@@ -58,6 +58,7 @@ return {
       },
       ["typescript-tools"] = { -- enable inlay hints by default for `typescript-tools`
         settings = {
+          expose_as_code_action = "all",
           tsserver_file_preferences = {
             importModuleSpecifierPreference = "non-relative",
           },
