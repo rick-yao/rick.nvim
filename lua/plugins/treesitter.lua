@@ -8,8 +8,21 @@ return {
   opts = function(_, opts)
     -- add more things to the ensure_installed table protecting against community packs modifying it
     opts.ensure_installed = require("astrocore").list_insert_unique(opts.ensure_installed, {
+      "json",
+      "javascript",
+      "typescript",
+      "tsx",
+      "yaml",
+      "html",
+      "css",
+      "markdown",
+      "svelte",
+      "graphql",
+      "bash",
       "lua",
       "vim",
+      "dockerfile",
+      "gitignore",
       -- add more arguments for adding more treesitter parsers
     })
   end,
