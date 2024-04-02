@@ -56,6 +56,13 @@ return {
           },
         },
       },
+      ["typescript-tools"] = { -- enable inlay hints by default for `typescript-tools`
+        settings = {
+          tsserver_file_preferences = {
+            importModuleSpecifierPreference = "non-relative",
+          },
+        },
+      },
     },
     -- customize how language servers are attached
     handlers = {
