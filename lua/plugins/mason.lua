@@ -14,7 +14,6 @@ return {
         "cssls",
         "html",
         "emmet_ls",
-        "tailwindcss",
         "jsonls",
         -- "lua_ls",
         -- add more arguments for adding more language servers
