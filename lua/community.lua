@@ -18,6 +18,7 @@ return {
   -- { import = "astrocommunity.fuzzy-finder.telescope-zoxide" },
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.vue" },
+  { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.project.nvim-spectre" },
   { import = "astrocommunity.completion.copilot-lua" },
   -- import/override with your plugins folder
