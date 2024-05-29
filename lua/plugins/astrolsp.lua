@@ -56,14 +56,18 @@ return {
           },
         },
       },
-      ["typescript-tools"] = { -- enable inlay hints by default for `typescript-tools`
+      vtsls = { -- enable inlay hints by default for `typescript-tools`
         settings = {
-          expose_as_code_action = "all",
-          tsserver_file_preferences = function(ft)
-            return {
-              importModuleSpecifierPreference = "non-relative",
-            }
-          end,
+          typescript = {
+            preferences = {
+              importModuleSpecifier = "non-relative",
+            },
+          },
+          javascript = {
+            preferences = {
+              importModuleSpecifier = "non-relative",
+            },
+          },
         },
       },
     },
