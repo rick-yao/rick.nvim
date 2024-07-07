@@ -21,6 +21,7 @@ return {
   { import = "astrocommunity.pack.vue" },
   { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.project.nvim-spectre" },
+  { import = "astrocommunity.utility.noice-nvim" },
   -- { import = "astrocommunity.completion.copilot-lua" },
   -- import/override with your plugins folder
 }
