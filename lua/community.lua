@@ -14,13 +14,9 @@ return {
   { import = "astrocommunity.motion.flash-nvim" },
   { import = "astrocommunity.motion.nvim-surround" },
   { import = "astrocommunity.diagnostics.trouble-nvim" },
-  -- { import = "astrocommunity.colorscheme.everforest" },
-  -- { import = "astrocommunity.colorscheme.onedarkpro-nvim" },
-  -- { import = "astrocommunity.fuzzy-finder.telescope-zoxide" },
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.vue" },
   { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.utility.noice-nvim" },
-  -- { import = "astrocommunity.completion.copilot-lua" },
   -- import/override with your plugins folder
 }
