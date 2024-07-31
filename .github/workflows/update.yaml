@@ -32,7 +32,6 @@ jobs:
         run: |
           nvim --headless +qa
           nvim --headless "+Lazy! sync" +qa
-          nvim --headless "+Lazy! sync" +qa
 
       - name: Check for changes
         id: git-check
@@ -41,9 +40,11 @@ jobs:
 
       - name: Commit and push if changes
         if: steps.git-check.outputs.changes == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT }}
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
           git add .
           git commit -m "Auto-update Neovim dependencies"
           git push
