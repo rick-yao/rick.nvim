@@ -11,6 +11,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT }}
+          fetch-depth: 0
 
       - name: Setup Neovim
         uses: rhysd/action-setup-vim@v1
@@ -44,6 +47,7 @@ jobs:
         env:
           GIT_NAME: ${{ secrets.GIT_NAME }}
           GIT_EMAIL: ${{ secrets.GIT_EMAIL }}
+          GITHUB_TOKEN: ${{ secrets.PAT }}
         with:
           github-token: ${{secrets.GITHUB_TOKEN}}
           script: |
@@ -79,6 +83,6 @@ jobs:
         if: success()
         uses: peter-evans/repository-dispatch@v3
         with:
-          token: ${{ secrets.GITHUB_TOKEN  }}
+          token: ${{ secrets.PAT  }}
           repository: rick-yao/dotfiles
           event-type: neovim-deps-updated
