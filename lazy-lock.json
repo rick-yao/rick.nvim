@@ -2,10 +2,10 @@
   "AstroNvim": { "branch": "main", "commit": "161b13bc968e66fa7135910b9d9b970452d94d5f" },
   "Comment.nvim": { "branch": "master", "commit": "e30b7f2008e52442154b66f7c519bfd2f1e32acb" },
   "LuaSnip": { "branch": "master", "commit": "03c8e67eb7293c404845b3982db895d59c0d1538" },
-  "SchemaStore.nvim": { "branch": "main", "commit": "d25cb49aa52f8bd459e1b8f3f4efd6c8af5eb7e5" },
+  "SchemaStore.nvim": { "branch": "main", "commit": "91ebf754a371380b521099d7a57337e180bac542" },
   "aerial.nvim": { "branch": "master", "commit": "d5ba0e3cfede432cec7e6ab28724c4a554ea0f09" },
   "alpha-nvim": { "branch": "main", "commit": "36e4baca9533ec87afa948fe20a0a1c4897a6a6e" },
-  "astrocommunity": { "branch": "main", "commit": "56031b4e44f9232f971120df31d1085a0b0ae47b" },
+  "astrocommunity": { "branch": "main", "commit": "2ea16f78e2d864667277a7a35d331302e1f5707b" },
   "astrocore": { "branch": "main", "commit": "8a66da8b8d4dfd783703195a6448aad75837d947" },
   "astrolsp": { "branch": "main", "commit": "e8290b739fa08c181a2149be5d94db0a91a42cd0" },
   "astrotheme": { "branch": "main", "commit": "41b7d8430a55fd771e41bd763af4c3fd1c2fc0b5" },
@@ -36,7 +36,7 @@
   "mason-nvim-dap.nvim": { "branch": "main", "commit": "8b9363d83b5d779813cdd2819b8308651cec2a09" },
   "mason.nvim": { "branch": "main", "commit": "c43eeb5614a09dc17c03a7fb49de2e05de203924" },
   "mini.bufremove": { "branch": "main", "commit": "e6044aa28e61d4dd9ec86194d6f81743eced0c1c" },
-  "mini.nvim": { "branch": "main", "commit": "7c00ea1a6b35332746e1a2fa768e26c5fa9c3589" },
+  "mini.nvim": { "branch": "main", "commit": "974ebc04dff3b59899a5eee29157a9bbfd85dce3" },
   "neo-tree.nvim": { "branch": "main", "commit": "8c75e8a2949cd6cd35525799200a8d34471ee9eb" },
   "neoconf.nvim": { "branch": "main", "commit": "bccd2b6b7e9c2551fe5881d46ee58966c22c99a0" },
   "neodev.nvim": { "branch": "main", "commit": "1f4ebcc10852518166ce165e57d425a4265a10d4" },
@@ -70,7 +70,7 @@
   "smart-splits.nvim": { "branch": "master", "commit": "1a2b268a7ec7aeef879cdd15973339010ec134f7" },
   "supermaven-nvim": { "branch": "main", "commit": "d71257f431e190d9236d7f30da4c2d659389e91f" },
   "telescope-fzf-native.nvim": { "branch": "main", "commit": "cf48d4dfce44e0b9a2e19a008d6ec6ea6f01a83b" },
-  "telescope.nvim": { "branch": "0.1.x", "commit": "a0bbec21143c7bc5f8bb02e0005fa0b982edc026" },
+  "telescope.nvim": { "branch": "master", "commit": "a0bbec21143c7bc5f8bb02e0005fa0b982edc026" },
   "todo-comments.nvim": { "branch": "main", "commit": "313b04e5b02d29ab9275c9295ff5e2b73921b0eb" },
   "toggleterm.nvim": { "branch": "main", "commit": "48be57eaba817f038d61bbf64d2c597f578c0827" },
   "trouble.nvim": { "branch": "main", "commit": "6efc446226679fda0547c0fd6a7892fd5f5b15d8" },
@@ -78,5 +78,5 @@
   "venv-selector.nvim": { "branch": "regexp", "commit": "c43dc6bf8c7e7cf124a991775ed3defe87112d3a" },
   "vim-illuminate": { "branch": "master", "commit": "5eeb7951fc630682c322e88a9bbdae5c224ff0aa" },
   "which-key.nvim": { "branch": "main", "commit": "6c1584eb76b55629702716995cca4ae2798a9cca" },
-  "yazi.nvim": { "branch": "main", "commit": "37a5a5e910d84f826d72568707bb637f1da962bf" }
+  "yazi.nvim": { "branch": "main", "commit": "065685bf0e3acd2393f42f788f46e12c4b9732f5" }
 }
