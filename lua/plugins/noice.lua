@@ -4,5 +4,10 @@ return {
     messages = {
       enabled = false,
     },
+    lsp = {
+      hover = {
+        silent = true,
+      },
+    },
   },
 }
