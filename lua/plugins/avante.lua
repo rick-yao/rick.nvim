@@ -5,71 +5,33 @@ return {
   version = false, -- set this if you want to always pull the latest change
   opts = {
     -- add any opts here
-    provider = "Laisky-sonnet", -- You can then change this provider here
-    auto_suggestions_provider = "Laisky-suggestion",
+    provider = "grok-free", -- You can then change this provider here
+    auto_suggestions_provider = "grok-free",
     behaviour = {
-      auto_suggestions = false, -- Experimental stage
+      auto_suggestions = true, -- Experimental stage
       auto_set_highlight_group = true,
       auto_set_keymaps = true,
       auto_apply_diff_after_generation = false,
       support_paste_from_clipboard = false,
     },
     vendors = {
+      ["grok-free"] = {
+        __inherited_from = "openai",
+        endpoint = "https://api.x.ai/v1", -- The full endpoint of the provider
+        model = "grok-beta", -- The model name to use with this provider
+        api_key_name = "GROK_KEY", -- The name of the environment variable that contains the API key
+      },
       ["Laisky-sonnet"] = {
-        endpoint = "https://oneapi.laisky.com/v1/chat/completions", -- The full endpoint of the provider
+        __inherited_from = "openai",
+        endpoint = "https://oneapi.laisky.com/v1", -- The full endpoint of the provider
         model = "claude-3.5-sonnet", -- The model name to use with this provider
         api_key_name = "L_KEY", -- The name of the environment variable that contains the API key
-        parse_curl_args = function(opts, code_opts)
-          return {
-            url = opts.endpoint,
-            headers = {
-              ["Accept"] = "application/json",
-              ["Content-Type"] = "application/json",
-              ["Authorization"] = "Bearer " .. os.getenv(opts.api_key_name),
-            },
-            body = {
-              model = opts.model,
-              messages = { -- you can make your own message, but this is very advanced
-                { role = "system", content = code_opts.system_prompt },
-                { role = "user", content = require("avante.providers.openai").get_user_message(code_opts) },
-              },
-              temperature = 0,
-              max_tokens = 8192,
-              stream = true, -- this will be set by default.
-            },
-          }
-        end,
-        parse_response_data = function(data_stream, event_state, opts)
-          require("avante.providers").openai.parse_response(data_stream, event_state, opts)
-        end,
       },
       ["Laisky-suggestion"] = {
-        endpoint = "https://oneapi.laisky.com/v1/chat/completions", -- The full endpoint of the provider
+        __inherited_from = "openai",
+        endpoint = "https://oneapi.laisky.com/v1", -- The full endpoint of the provider
         model = "gpt-4o-mini", -- The model name to use with this provider
         api_key_name = "L_KEY", -- The name of the environment variable that contains the API key
-        parse_curl_args = function(opts, code_opts)
-          return {
-            url = opts.endpoint,
-            headers = {
-              ["Accept"] = "application/json",
-              ["Content-Type"] = "application/json",
-              ["Authorization"] = "Bearer " .. os.getenv(opts.api_key_name),
-            },
-            body = {
-              model = opts.model,
-              messages = { -- you can make your own message, but this is very advanced
-                { role = "system", content = code_opts.system_prompt },
-                { role = "user", content = require("avante.providers.openai").get_user_message(code_opts) },
-              },
-              temperature = 0,
-              max_tokens = 4096,
-              stream = true, -- this will be set by default.
-            },
-          }
-        end,
-        parse_response_data = function(data_stream, event_state, opts)
-          require("avante.providers").openai.parse_response(data_stream, event_state, opts)
-        end,
       },
     },
   },
@@ -102,7 +64,6 @@ return {
       },
     },
     {
-      -- Make sure to set this up properly if you have lazy=true
       "MeanderingProgrammer/render-markdown.nvim",
       opts = {
         file_types = { "markdown", "Avante" },
