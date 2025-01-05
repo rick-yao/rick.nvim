@@ -5,8 +5,8 @@ return {
   version = false, -- set this if you want to always pull the latest change
   opts = {
     -- add any opts here
-    provider = "grok-free", -- You can then change this provider here
-    auto_suggestions_provider = "grok-free",
+    provider = "Laisky-sonnet", -- You can then change this provider here
+    auto_suggestions_provider = "Laisky-suggestion",
     behaviour = {
       auto_suggestions = true, -- Experimental stage
       auto_set_highlight_group = true,
