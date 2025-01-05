@@ -1,5 +1,3 @@
-if true then return {} end
-
 return {
   "yetone/avante.nvim",
   event = "VeryLazy",
@@ -7,8 +5,8 @@ return {
   version = false, -- set this if you want to always pull the latest change
   opts = {
     -- add any opts here
-    provider = "Laisky-sonnet", -- You can then change this provider here
-    auto_suggestions_provider = "Laisky-suggestion",
+    provider = "deep-seek", -- You can then change this provider here
+    auto_suggestions_provider = "deep-seek",
     behaviour = {
       auto_suggestions = true, -- Experimental stage
       auto_set_highlight_group = true,
@@ -17,6 +15,13 @@ return {
       support_paste_from_clipboard = false,
     },
     vendors = {
+      ["deep-seek"] = {
+        __inherited_from = "openai",
+        endpoint = "https://api.deepseek.com/v1", -- The full endpoint of the provider
+        model = "deepseek-chat", -- The model name to use with this provider
+        max_tokens = 8192,
+        api_key_name = "DEEPSEEK_API_KEY", -- The name of the environment variable that contains the API key
+      },
       ["grok-free"] = {
         __inherited_from = "openai",
         endpoint = "https://api.x.ai/v1", -- The full endpoint of the provider
