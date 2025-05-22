@@ -1,4 +1,4 @@
-if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
+-- if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
 
 -- Customize Mason
 
@@ -11,21 +11,26 @@ return {
     opts = {
       -- Make sure to use the names found in `:Mason`
       ensure_installed = {
-        -- install language servers
-        "lua-language-server",
-
-        -- install formatters
-        "stylua",
-
-        -- install debuggers
+        "basedpyright",
+        "black",
+        "codelldb",
+        "css-lsp",
         "debugpy",
-
-        -- install any other package
+        "emmet-ls",
+        "eslint-lsp",
+        "html-lsp",
+        "isort",
+        "js-debug-adapter",
+        "json-lsp",
+        "lua-language-server",
+        "prettierd",
+        "selene",
+        "stylua",
+        "tailwindcss-language-server",
+        "taplo",
         "tree-sitter-cli",
-        "cssls",
-        "html",
-        "emmet_ls",
-        "jsonls",
+        "vtsls",
+        "vue-language-server",
       },
     },
   },
