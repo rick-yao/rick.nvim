@@ -5,14 +5,17 @@ return {
   version = false, -- set this if you want to always pull the latest change
   opts = {
     -- add any opts here
-    provider = "deep-seek", -- You can then change this provider here
-    auto_suggestions_provider = "deep-seek",
+    provider = "gemini", -- You can then change this provider here
+    auto_suggestions_provider = "gemini",
     behaviour = {
       auto_suggestions = true, -- Experimental stage
       auto_set_highlight_group = true,
       auto_set_keymaps = true,
       auto_apply_diff_after_generation = false,
       support_paste_from_clipboard = false,
+    },
+    gemini = {
+      model = "gemini-2.5-flash-preview-05-20",
     },
     vendors = {
       ["deep-seek"] = {
