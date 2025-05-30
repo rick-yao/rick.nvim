@@ -6,7 +6,7 @@ return {
   opts = {
     -- add any opts here
     provider = "gemini", -- You can then change this provider here
-    auto_suggestions_provider = "gemini",
+    auto_suggestions_provider = "gemini-suggestion",
     behaviour = {
       auto_suggestions = true, -- Experimental stage
       auto_set_highlight_group = true,
@@ -15,13 +15,18 @@ return {
       support_paste_from_clipboard = false,
     },
     gemini = {
-      model = "gemini-2.5-flash-preview-05-20",
+      model = "gemini-2.5-pro-preview-05-06",
     },
     suggestion = {
       debounce = 300,
       throttle = 300,
     },
     vendors = {
+      ["gemini-suggestion"] = {
+        __inherited_from = "gemini",
+        model = "gemini-2.5-flash-preview-05-20", -- The model name to use with this provider
+        api_key_name = "GEMINI_SUGGEST_API_KEY", -- The name of the environment variable that contains the API key
+      },
       ["deep-seek"] = {
         __inherited_from = "openai",
         endpoint = "https://api.deepseek.com/v1", -- The full endpoint of the provider
