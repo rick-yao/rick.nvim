@@ -17,6 +17,10 @@ return {
     gemini = {
       model = "gemini-2.5-flash-preview-05-20",
     },
+    suggestion = {
+      debounce = 300,
+      throttle = 300,
+    },
     vendors = {
       ["deep-seek"] = {
         __inherited_from = "openai",
