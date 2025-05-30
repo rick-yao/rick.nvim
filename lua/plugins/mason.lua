@@ -10,28 +10,7 @@ return {
     -- overrides `require("mason-tool-installer").setup(...)`
     opts = {
       -- Make sure to use the names found in `:Mason`
-      ensure_installed = {
-        "basedpyright",
-        "black",
-        "codelldb",
-        "css-lsp",
-        "debugpy",
-        "emmet-ls",
-        "eslint-lsp",
-        "html-lsp",
-        "isort",
-        "js-debug-adapter",
-        "json-lsp",
-        "lua-language-server",
-        "prettierd",
-        "selene",
-        "stylua",
-        "tailwindcss-language-server",
-        "taplo",
-        "tree-sitter-cli",
-        "vtsls",
-        "vue-language-server",
-      },
+      ensure_installed = {},
     },
   },
 }

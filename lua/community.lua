@@ -16,7 +16,7 @@ return {
   { import = "astrocommunity.diagnostics.trouble-nvim" },
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.vue" },
-  { import = "astrocommunity.pack.python" },
+  { import = "astrocommunity.pack.python-ruff" },
   { import = "astrocommunity.utility.noice-nvim" },
   -- import/override with your plugins folder
 }
