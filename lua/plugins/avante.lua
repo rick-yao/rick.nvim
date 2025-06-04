@@ -14,14 +14,14 @@ return {
       auto_apply_diff_after_generation = false,
       support_paste_from_clipboard = false,
     },
-    gemini = {
-      model = "gemini-2.5-pro-preview-05-06",
-    },
     suggestion = {
       debounce = 300,
       throttle = 300,
     },
-    vendors = {
+    providers = {
+      gemini = {
+        model = "gemini-2.5-pro-preview-05-06",
+      },
       ["gemini-suggestion"] = {
         __inherited_from = "gemini",
         model = "gemini-2.5-flash-preview-05-20", -- The model name to use with this provider
