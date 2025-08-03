@@ -7,6 +7,12 @@
 ---@type LazySpec
 return {
   { "rebelot/kanagawa.nvim" },
+  {
+    "scottmckendry/cyberdream.nvim",
+    lazy = false,
+    priority = 1000,
+    opts = { variant = "default", italic_comments = true, hide_fillchars = true },
+  },
 
   { "max397574/better-escape.nvim", enabled = true },
 

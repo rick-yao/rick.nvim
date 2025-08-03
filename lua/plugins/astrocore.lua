@@ -49,6 +49,7 @@ return {
         iskeyword = vim.opt.iskeyword + { "-", "#" }, -- sets vim.opt.iskeyword
         scrolloff = 5,
         cmdheight = 1,
+        -- background = "light",
       },
       g = { -- vim.g.<key>
         -- configure global vim variables (vim.g)
