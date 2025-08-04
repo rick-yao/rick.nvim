@@ -7,7 +7,7 @@
   "astrolsp": { "branch": "main", "commit": "414775e4b49a46bd7105cc5498ea7bb312359bf2" },
   "astrotheme": { "branch": "main", "commit": "f12dcf64b1f9a05839c3ac2146f550f43bae9dab" },
   "astroui": { "branch": "main", "commit": "4943abbd42674b43249313afe83b91065a40e4be" },
-  "avante.nvim": { "branch": "main", "commit": "66cfbb4c190da1b558c0e2f6dda59b89002f0c24" },
+  "avante.nvim": { "branch": "main", "commit": "b941cd902decf2a231affc45f1d25a0ff41c43a7" },
   "better-escape.nvim": { "branch": "master", "commit": "199dcc2643dec5d8dbdab4ec672cf405224dcb3b" },
   "blink.cmp": { "branch": "main", "commit": "bae4bae0eedd1fa55f34b685862e94a222d5c6f8" },
   "blink.compat": { "branch": "main", "commit": "2ed6d9a28b07fa6f3bface818470605f8896408c" },
@@ -67,5 +67,5 @@
   "venv-selector.nvim": { "branch": "regexp", "commit": "c677caa1030808a9f90092e522de7cc20c1390dd" },
   "vim-illuminate": { "branch": "master", "commit": "0d1e93684da00ab7c057410fecfc24f434698898" },
   "which-key.nvim": { "branch": "main", "commit": "fcbf4eea17cb299c02557d576f0d568878e354a4" },
-  "yazi.nvim": { "branch": "main", "commit": "2a32e37332c99bd2056cf0bda6b2496594fb27a3" }
+  "yazi.nvim": { "branch": "main", "commit": "f62926b176aa290d99d3af9130b251707e7b0f8c" }
 }
