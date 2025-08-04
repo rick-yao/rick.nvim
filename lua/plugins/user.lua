@@ -6,12 +6,36 @@
 
 ---@type LazySpec
 return {
-  { "rebelot/kanagawa.nvim" },
   {
-    "scottmckendry/cyberdream.nvim",
-    lazy = false,
-    priority = 1000,
-    opts = { variant = "default", italic_comments = true, hide_fillchars = true },
+    "olimorris/onedarkpro.nvim",
+    priority = 1000, -- Ensure it loads first
+    opts = {
+      colors = {
+        cursorline = "#d4d4d8", -- This is optional. The default cursorline color is based on the background
+      },
+      options = {
+        cursorline = true,                 -- Use cursorline highlighting?
+        transparency = false,              -- Use a transparent background?
+        terminal_colors = true,            -- Use the theme's colors for Neovim's :terminal?
+        lualine_transparency = true,       -- Center bar transparency?
+        highlight_inactive_windows = true, -- When the window is out of focus, change the normal background?
+      },
+      styles = {
+        types = "italic",        -- 类型名使用斜体
+        methods = "NONE",        -- 方法名无特殊样式
+        numbers = "NONE",        -- 数字无特殊样式
+        strings = "NONE",        -- 字符串使用斜体
+        comments = "italic",     -- 注释使用斜体
+        keywords = "bold",       -- 关键字使用粗体
+        constants = "NONE",      -- 常量无特殊样式
+        functions = "bold",      -- 函数名使用粗体
+        operators = "NONE",      -- 操作符无特殊样式
+        variables = "NONE",      -- 变量无特殊样式
+        parameters = "italic",   -- 函数参数使用斜体
+        conditionals = "bold",   -- 条件语句 (if, else) 使用粗体
+        virtual_text = "italic", -- LSP 的虚拟文本 (行内提示) 使用斜体
+      },
+    },
   },
 
   { "max397574/better-escape.nvim", enabled = true },
@@ -20,7 +44,7 @@ return {
   {
     "L3MON4D3/LuaSnip",
     config = function(plugin, opts)
-      require "astronvim.plugins.configs.luasnip"(plugin, opts) -- include the default astronvim config that calls the setup call
+      require "astronvim.plugins.configs.luasnip" (plugin, opts) -- include the default astronvim config that calls the setup call
       -- add more custom luasnip configuration such as filetype extend or custom snippets
       local luasnip = require "luasnip"
       luasnip.filetype_extend("javascript", { "javascriptreact" })
@@ -36,7 +60,7 @@ return {
   {
     "windwp/nvim-autopairs",
     config = function(plugin, opts)
-      require "astronvim.plugins.configs.nvim-autopairs"(plugin, opts) -- include the default astronvim config that calls the setup call
+      require "astronvim.plugins.configs.nvim-autopairs" (plugin, opts) -- include the default astronvim config that calls the setup call
       -- add more custom autopairs configuration such as custom rules
       local npairs = require "nvim-autopairs"
       local Rule = require "nvim-autopairs.rule"
@@ -44,18 +68,18 @@ return {
       npairs.add_rules(
         {
           Rule("$", "$", { "tex", "latex" })
-            -- don't add a pair if the next character is %
-            :with_pair(cond.not_after_regex "%%")
-            -- don't add a pair if  the previous character is xxx
-            :with_pair(
-              cond.not_before_regex("xxx", 3)
-            )
-            -- don't move right when repeat character
-            :with_move(cond.none())
-            -- don't delete if the next character is xx
-            :with_del(cond.not_after_regex "xx")
-            -- disable adding a newline when you press <cr>
-            :with_cr(cond.none()),
+          -- don't add a pair if the next character is %
+              :with_pair(cond.not_after_regex "%%")
+          -- don't add a pair if  the previous character is xxx
+              :with_pair(
+                cond.not_before_regex("xxx", 3)
+              )
+          -- don't move right when repeat character
+              :with_move(cond.none())
+          -- don't delete if the next character is xx
+              :with_del(cond.not_after_regex "xx")
+          -- disable adding a newline when you press <cr>
+              :with_cr(cond.none()),
         },
         -- disable for .vim files, but it work for another filetypes
         Rule("a", "a", "-vim")
