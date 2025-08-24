@@ -19,7 +19,7 @@ return {
     },
     providers = {
       gemini = {
-        model = "gemini-2.5-pro",
+        model = "gemini-2.5-flash", -- The model name to use with this provider
       },
       ["gemini-suggestion"] = {
         __inherited_from = "gemini",
