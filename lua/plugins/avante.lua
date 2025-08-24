@@ -20,11 +20,11 @@ return {
     },
     providers = {
       gemini = {
-        model = "gemini-2.5-pro-preview-05-06",
+        model = "gemini-2.5-pro",
       },
       ["gemini-suggestion"] = {
         __inherited_from = "gemini",
-        model = "gemini-2.5-flash-preview-05-20", -- The model name to use with this provider
+        model = "gemini-2.5-flash", -- The model name to use with this provider
         api_key_name = "GEMINI_SUGGEST_API_KEY", -- The name of the environment variable that contains the API key
       },
       ["deep-seek"] = {
