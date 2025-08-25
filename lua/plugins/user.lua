@@ -13,6 +13,9 @@ return {
       colors = {
         cursorline = "#d4d4d8", -- This is optional. The default cursorline color is based on the background
       },
+      highlights = {
+        MiniCursorword = { bg = "#d4d4f8", underline = true }, -- 加上下划线
+      },
       options = {
         cursorline = true, -- Use cursorline highlighting?
         transparency = false, -- Use a transparent background?
@@ -39,6 +42,16 @@ return {
   },
 
   { "max397574/better-escape.nvim", enabled = true },
+
+  {
+    "echasnovski/mini.nvim",
+    version = false,
+    config = function()
+      require("mini.cursorword").setup {
+        delay = 100,
+      }
+    end,
+  },
 
   -- You can also easily customize additional setup of plugins that is outside of the plugin's setup call
   {
