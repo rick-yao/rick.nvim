@@ -19,13 +19,13 @@ return {
     },
     providers = {
       ["vertex-gemini"] = {
-        __inherited_from = "gemini",
+        __inherited_from = "openai",
         model = "vertex_ai/gemini-2.5-pro",                    -- The model name to use with this provider
         api_key_name = "VERTEX_GEMINI_API_KEY",                -- The name of the environment variable that contains the API key
         endpoint = "https://litellmbg.infinitedream.space/v1", -- The full endpoint of the provider
       },
       ["vertex-gemini-suggestion"] = {
-        __inherited_from = "gemini",
+        __inherited_from = "openai",
         model = "vertex_ai/gemini-2.5-flash",                  -- The model name to use with this provider
         api_key_name = "VERTEX_GEMINI_SUGGEST_API_KEY",        -- The name of the environment variable that contains the API key
         endpoint = "https://litellmbg.infinitedream.space/v1", -- The full endpoint of the provider
