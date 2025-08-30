@@ -5,8 +5,8 @@ return {
   version = false, -- set this if you want to always pull the latest change
   opts = {
     -- add any opts here
-    provider = "gemini", -- You can then change this provider here
-    auto_suggestions_provider = "gemini-suggestion",
+    provider = "vertex-gemini", -- You can then change this provider here
+    auto_suggestions_provider = "vertex-gemini-suggestion",
     behaviour = {
       auto_set_highlight_group = true,
       auto_set_keymaps = true,
@@ -14,42 +14,46 @@ return {
       support_paste_from_clipboard = false,
     },
     suggestion = {
-      debounce = 300,
-      throttle = 300,
+      debounce = 200,
+      throttle = 200,
     },
     providers = {
-      gemini = {
-        model = "gemini-2.5-flash", -- The model name to use with this provider
-      },
-      ["gemini-suggestion"] = {
+      ["vertex-gemini"] = {
         __inherited_from = "gemini",
-        model = "gemini-2.5-flash", -- The model name to use with this provider
-        api_key_name = "GEMINI_SUGGEST_API_KEY", -- The name of the environment variable that contains the API key
+        model = "vertex_ai/gemini-2.5-pro",                    -- The model name to use with this provider
+        api_key_name = "VERTEX_GEMINI_API_KEY",                -- The name of the environment variable that contains the API key
+        endpoint = "https://litellmbg.infinitedream.space/v1", -- The full endpoint of the provider
+      },
+      ["vertex-gemini-suggestion"] = {
+        __inherited_from = "gemini",
+        model = "vertex_ai/gemini-2.5-flash",                  -- The model name to use with this provider
+        api_key_name = "VERTEX_GEMINI_SUGGEST_API_KEY",        -- The name of the environment variable that contains the API key
+        endpoint = "https://litellmbg.infinitedream.space/v1", -- The full endpoint of the provider
       },
       ["deep-seek"] = {
         __inherited_from = "openai",
         endpoint = "https://api.deepseek.com/v1", -- The full endpoint of the provider
-        model = "deepseek-chat", -- The model name to use with this provider
+        model = "deepseek-chat",                  -- The model name to use with this provider
         max_tokens = 8192,
-        api_key_name = "DEEPSEEK_API_KEY", -- The name of the environment variable that contains the API key
+        api_key_name = "DEEPSEEK_API_KEY",        -- The name of the environment variable that contains the API key
       },
       ["grok-free"] = {
         __inherited_from = "openai",
         endpoint = "https://api.x.ai/v1", -- The full endpoint of the provider
-        model = "grok-beta", -- The model name to use with this provider
-        api_key_name = "GROK_KEY", -- The name of the environment variable that contains the API key
+        model = "grok-beta",              -- The model name to use with this provider
+        api_key_name = "GROK_KEY",        -- The name of the environment variable that contains the API key
       },
       ["Laisky-sonnet"] = {
         __inherited_from = "openai",
         endpoint = "https://oneapi.laisky.com/v1", -- The full endpoint of the provider
-        model = "claude-3.5-sonnet", -- The model name to use with this provider
-        api_key_name = "L_KEY", -- The name of the environment variable that contains the API key
+        model = "claude-3.5-sonnet",               -- The model name to use with this provider
+        api_key_name = "L_KEY",                    -- The name of the environment variable that contains the API key
       },
       ["Laisky-suggestion"] = {
         __inherited_from = "openai",
         endpoint = "https://oneapi.laisky.com/v1", -- The full endpoint of the provider
-        model = "gpt-4o-mini", -- The model name to use with this provider
-        api_key_name = "L_KEY", -- The name of the environment variable that contains the API key
+        model = "gpt-4o-mini",                     -- The model name to use with this provider
+        api_key_name = "L_KEY",                    -- The name of the environment variable that contains the API key
       },
     },
   },
@@ -63,7 +67,7 @@ return {
     "MunifTanjim/nui.nvim",
     --- The below dependencies are optional,
     "nvim-tree/nvim-web-devicons", -- or echasnovski/mini.icons
-    "zbirenbaum/copilot.lua", -- for providers='copilot'
+    "zbirenbaum/copilot.lua",      -- for providers='copilot'
     {
       -- support for image pasting
       "HakonHarnes/img-clip.nvim",
