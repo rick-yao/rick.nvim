@@ -17,6 +17,7 @@ return {
   -- { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.vue" },
   { import = "astrocommunity.pack.python-ruff" },
+  { import = "astrocommunity.pack.nix" },
   { import = "astrocommunity.utility.noice-nvim" },
   -- import/override with your plugins folder
 }
