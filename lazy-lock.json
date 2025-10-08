@@ -30,7 +30,7 @@
   "mason.nvim": { "branch": "main", "commit": "ad7146aa61dcaeb54fa900144d768f040090bff0" },
   "mini.icons": { "branch": "main", "commit": "397ed3807e96b59709ef3292f0a3e253d5c1dc0a" },
   "mini.nvim": { "branch": "main", "commit": "fbb6ad02871d296fc7d3ebd453e1be89b1210f68" },
-  "neo-tree.nvim": { "branch": "main", "commit": "f14ac20f98fb62769eaf4de1dc69fbee5fcf3384" },
+  "neo-tree.nvim": { "branch": "main", "commit": "0c29e3795b9105d68390d2fdfd430409ef8c5d65" },
   "neoconf.nvim": { "branch": "main", "commit": "7a8d7fd36f95f5cbbf57d4a5c463f6c54ad54cd3" },
   "noice.nvim": { "branch": "main", "commit": "0427460c2d7f673ad60eb02b35f5e9926cf67c59" },
   "none-ls.nvim": { "branch": "main", "commit": "6617d47fbf275d197e3335022a3d33ff310a4b93" },
@@ -53,7 +53,7 @@
   "onedarkpro.nvim": { "branch": "main", "commit": "eeac8847a46a02c4de4e887c4c6d34b282060b5d" },
   "package-info.nvim": { "branch": "master", "commit": "a1de9eb91fa52ab8361f0c05032673670a3d10ff" },
   "plenary.nvim": { "branch": "master", "commit": "b9fd5226c2f76c951fc8ed5923d85e4de065e509" },
-  "render-markdown.nvim": { "branch": "main", "commit": "ea3678daff66656a9e1c20914d204b7c841c5030" },
+  "render-markdown.nvim": { "branch": "main", "commit": "f3321d0b74d61a8305cf19d891f3c7046bc4dac2" },
   "resession.nvim": { "branch": "master", "commit": "cc819b0489938d03e4f3532a583354f0287c015b" },
   "schemastore.nvim": { "branch": "main", "commit": "f3d6d9afc8f09bf4dec91bf2bb5a40fcfe7ea477" },
   "smart-splits.nvim": { "branch": "master", "commit": "ddb23c1a1cf1507bda487cda7f6e4690965ef9f5" },
@@ -65,5 +65,5 @@
   "venv-selector.nvim": { "branch": "main", "commit": "c2d888f416c3572c27ab9ef936443ce7cd98762b" },
   "vim-illuminate": { "branch": "master", "commit": "0d1e93684da00ab7c057410fecfc24f434698898" },
   "which-key.nvim": { "branch": "main", "commit": "fcbf4eea17cb299c02557d576f0d568878e354a4" },
-  "yazi.nvim": { "branch": "main", "commit": "599d1b97b63c39a659fa88ac5719c50e44069888" }
+  "yazi.nvim": { "branch": "main", "commit": "5127a4425ddc1f01c355de4dcc85f9a336c26d7f" }
 }
