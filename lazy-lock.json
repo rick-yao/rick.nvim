@@ -63,5 +63,5 @@
   "tsc.nvim": { "branch": "main", "commit": "e4773833726beec2e8a8e11f0b21613b5472b97b" },
   "vim-illuminate": { "branch": "master", "commit": "0d1e93684da00ab7c057410fecfc24f434698898" },
   "which-key.nvim": { "branch": "main", "commit": "fcbf4eea17cb299c02557d576f0d568878e354a4" },
-  "yazi.nvim": { "branch": "main", "commit": "a3ae125155395affca2b1f823eae64b948a282e4" }
+  "yazi.nvim": { "branch": "main", "commit": "fc3e694791b90c4578fbd3a3d7a61a2bd8f1d3db" }
 }
