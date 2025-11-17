@@ -10,7 +10,7 @@ return {
   { import = "astrocommunity.recipes.vscode" },
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.json" },
-  { import = "astrocommunity.pack.prettier" },
+  { import = "astrocommunity.pack.biome" },
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.tailwindcss" },
   { import = "astrocommunity.motion.flash-nvim" },
