@@ -53,9 +53,9 @@
   "onedarkpro.nvim": { "branch": "main", "commit": "6b12e00bf5e509e1278a84e2aecf918ca6be9aea" },
   "package-info.nvim": { "branch": "master", "commit": "0826010a13967bee4f74337e74d36e9bfa8ff2a7" },
   "plenary.nvim": { "branch": "master", "commit": "b9fd5226c2f76c951fc8ed5923d85e4de065e509" },
-  "render-markdown.nvim": { "branch": "main", "commit": "686af1e08c47a72e1f969ba2b40a424446d882cf" },
+  "render-markdown.nvim": { "branch": "main", "commit": "07d088bf8bdadd159eb807b90eaee86a4778383f" },
   "resession.nvim": { "branch": "master", "commit": "cc819b0489938d03e4f3532a583354f0287c015b" },
-  "schemastore.nvim": { "branch": "main", "commit": "48dba219db5d45baad6f7491e754706f74d12676" },
+  "schemastore.nvim": { "branch": "main", "commit": "10e90771990622daec50d14ef3e278f429b9419f" },
   "smart-splits.nvim": { "branch": "master", "commit": "ddb23c1a1cf1507bda487cda7f6e4690965ef9f5" },
   "snacks.nvim": { "branch": "main", "commit": "a4e46becca45eb65c73a388634b1ce8aad629ae0" },
   "todo-comments.nvim": { "branch": "main", "commit": "31e3c38ce9b29781e4422fc0322eb0a21f4e8668" },
@@ -65,5 +65,5 @@
   "venv-selector.nvim": { "branch": "main", "commit": "58bae72c84b9f7f864c879ec1896e384296f9ffb" },
   "vim-illuminate": { "branch": "master", "commit": "0d1e93684da00ab7c057410fecfc24f434698898" },
   "which-key.nvim": { "branch": "main", "commit": "fcbf4eea17cb299c02557d576f0d568878e354a4" },
-  "yazi.nvim": { "branch": "main", "commit": "bdf23ec1092fb1dd6e42379cd0aba0e0a850c1d7" }
+  "yazi.nvim": { "branch": "main", "commit": "d34cbb3778fc92aa0954bda0ce5f32cac842d4a9" }
 }
