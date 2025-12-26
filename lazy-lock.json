@@ -2,7 +2,7 @@
   "AstroNvim": { "branch": "main", "commit": "ced71e326fd5a314eca237abe8a357eb4e9f40ae" },
   "LuaSnip": { "branch": "master", "commit": "5a1e39223db9a0498024a77b8441169d260c8c25" },
   "aerial.nvim": { "branch": "master", "commit": "5c4e2da4486da5f9b798ea9a0f1fc5c6bcd3d9cf" },
-  "astrocommunity": { "branch": "main", "commit": "32ea0830884abf2a5c9c3db98d45f713e163795b" },
+  "astrocommunity": { "branch": "main", "commit": "509595120b03291ed8df746f0a26c888d10357e0" },
   "astrocore": { "branch": "main", "commit": "c797dd5a592e2bd154f2503e231b8a4083659534" },
   "astrolsp": { "branch": "main", "commit": "0befe28a4ea96e46b7f7c01e4a634c04225ba55a" },
   "astrotheme": { "branch": "main", "commit": "4a2af93815e4e6adfe69c836e46047a9451de858" },
@@ -65,5 +65,5 @@
   "venv-selector.nvim": { "branch": "main", "commit": "58bae72c84b9f7f864c879ec1896e384296f9ffb" },
   "vim-illuminate": { "branch": "master", "commit": "0d1e93684da00ab7c057410fecfc24f434698898" },
   "which-key.nvim": { "branch": "main", "commit": "fcbf4eea17cb299c02557d576f0d568878e354a4" },
-  "yazi.nvim": { "branch": "main", "commit": "28a7e22ea49161a96bf982acec6cf5dbaedbd854" }
+  "yazi.nvim": { "branch": "main", "commit": "7e2f49b72218f62fe73adbf221d85cd27ebf9f2b" }
 }
