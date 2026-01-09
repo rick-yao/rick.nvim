@@ -12,7 +12,7 @@
   "blink.cmp": { "branch": "main", "commit": "b19413d214068f316c78978b08264ed1c41830ec" },
   "blink.compat": { "branch": "main", "commit": "2ed6d9a28b07fa6f3bface818470605f8896408c" },
   "cmp-dap": { "branch": "master", "commit": "ea92773e84c0ad3288c3bc5e452ac91559669087" },
-  "copilot.lua": { "branch": "master", "commit": "e78d1ffebdf6ccb6fd8be4e6898030c1cf5f9b64" },
+  "copilot.lua": { "branch": "master", "commit": "c13f6f5147b80298301eb409991f28a991736cc3" },
   "debugprint.nvim": { "branch": "main", "commit": "25bc7c2b1703050d14cfb2560974a8426febe08d" },
   "dressing.nvim": { "branch": "master", "commit": "2d7c2db2507fa3c4956142ee607431ddb2828639" },
   "flash.nvim": { "branch": "main", "commit": "fcea7ff883235d9024dc41e638f164a450c14ca2" },
@@ -29,7 +29,7 @@
   "mason-tool-installer.nvim": { "branch": "main", "commit": "517ef5994ef9d6b738322664d5fdd948f0fdeb46" },
   "mason.nvim": { "branch": "main", "commit": "44d1e90e1f66e077268191e3ee9d2ac97cc18e65" },
   "mini.icons": { "branch": "main", "commit": "397ed3807e96b59709ef3292f0a3e253d5c1dc0a" },
-  "mini.nvim": { "branch": "main", "commit": "29b9e13f891f9c83f44ff5bf44d22daa1af1dc71" },
+  "mini.nvim": { "branch": "main", "commit": "a0ae5a65507d009a22b245cb0e9e347690a5f94e" },
   "neo-tree.nvim": { "branch": "main", "commit": "f3df514fff2bdd4318127c40470984137f87b62e" },
   "neoconf.nvim": { "branch": "main", "commit": "1304440f6c0dbff40538dba934aded1faea18c9e" },
   "noice.nvim": { "branch": "main", "commit": "7bfd942445fb63089b59f97ca487d605e715f155" },
@@ -65,5 +65,5 @@
   "venv-selector.nvim": { "branch": "main", "commit": "58bae72c84b9f7f864c879ec1896e384296f9ffb" },
   "vim-illuminate": { "branch": "master", "commit": "0d1e93684da00ab7c057410fecfc24f434698898" },
   "which-key.nvim": { "branch": "main", "commit": "fcbf4eea17cb299c02557d576f0d568878e354a4" },
-  "yazi.nvim": { "branch": "main", "commit": "ecc18c6c5c9eae27f5498ef792cc0063c9a3ec9c" }
+  "yazi.nvim": { "branch": "main", "commit": "6eeeab6c340514cc9eb205ac4b60b7e0eee74a77" }
 }
