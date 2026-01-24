@@ -7,7 +7,7 @@
   "astrolsp": { "branch": "main", "commit": "0befe28a4ea96e46b7f7c01e4a634c04225ba55a" },
   "astrotheme": { "branch": "main", "commit": "4a2af93815e4e6adfe69c836e46047a9451de858" },
   "astroui": { "branch": "main", "commit": "4943abbd42674b43249313afe83b91065a40e4be" },
-  "avante.nvim": { "branch": "main", "commit": "e1e70be8ee34144d3ce4b0608e9b30aab3feb701" },
+  "avante.nvim": { "branch": "main", "commit": "fde9a524457d17661618678f085649d4e8d3fd6f" },
   "better-escape.nvim": { "branch": "master", "commit": "199dcc2643dec5d8dbdab4ec672cf405224dcb3b" },
   "blink.cmp": { "branch": "main", "commit": "b19413d214068f316c78978b08264ed1c41830ec" },
   "blink.compat": { "branch": "main", "commit": "2ed6d9a28b07fa6f3bface818470605f8896408c" },
@@ -55,7 +55,7 @@
   "plenary.nvim": { "branch": "master", "commit": "b9fd5226c2f76c951fc8ed5923d85e4de065e509" },
   "render-markdown.nvim": { "branch": "main", "commit": "c54380dd4d8d1738b9691a7c349ecad7967ac12e" },
   "resession.nvim": { "branch": "master", "commit": "cc819b0489938d03e4f3532a583354f0287c015b" },
-  "schemastore.nvim": { "branch": "main", "commit": "a0fad73139f98ea1d6e9d380374c16245e562f4f" },
+  "schemastore.nvim": { "branch": "main", "commit": "083602d8fedd7230bd6f0b164b7c4f9d1ff3a9c3" },
   "smart-splits.nvim": { "branch": "master", "commit": "ddb23c1a1cf1507bda487cda7f6e4690965ef9f5" },
   "snacks.nvim": { "branch": "main", "commit": "a4e46becca45eb65c73a388634b1ce8aad629ae0" },
   "todo-comments.nvim": { "branch": "main", "commit": "31e3c38ce9b29781e4422fc0322eb0a21f4e8668" },
@@ -65,5 +65,5 @@
   "venv-selector.nvim": { "branch": "main", "commit": "58bae72c84b9f7f864c879ec1896e384296f9ffb" },
   "vim-illuminate": { "branch": "master", "commit": "0d1e93684da00ab7c057410fecfc24f434698898" },
   "which-key.nvim": { "branch": "main", "commit": "fcbf4eea17cb299c02557d576f0d568878e354a4" },
-  "yazi.nvim": { "branch": "main", "commit": "f75450ef18689482f2026916d836dd30f7b22d89" }
+  "yazi.nvim": { "branch": "main", "commit": "62a73819ae3ac74fc901bfa7818f9daa8a8f7512" }
 }
