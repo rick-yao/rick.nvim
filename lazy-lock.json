@@ -5,7 +5,7 @@
   "astrocommunity": { "branch": "main", "commit": "998e0d0b9d99f27511d8ec353dedc42cd10cf011" },
   "astrocore": { "branch": "main", "commit": "41e7e7208102d95409aa2632b9dc6f7ece9f8abf" },
   "astrolsp": { "branch": "main", "commit": "0befe28a4ea96e46b7f7c01e4a634c04225ba55a" },
-  "astrotheme": { "branch": "main", "commit": "4a2af93815e4e6adfe69c836e46047a9451de858" },
+  "astrotheme": { "branch": "main", "commit": "cf0e65a7b3ce2f830b052f4da937729eee1e7a7d" },
   "astroui": { "branch": "main", "commit": "4943abbd42674b43249313afe83b91065a40e4be" },
   "avante.nvim": { "branch": "main", "commit": "ecc669a87deb2be95db49e53041c05a2d0980fd4" },
   "better-escape.nvim": { "branch": "master", "commit": "199dcc2643dec5d8dbdab4ec672cf405224dcb3b" },
@@ -29,7 +29,7 @@
   "mason-tool-installer.nvim": { "branch": "main", "commit": "443f1ef8b5e6bf47045cb2217b6f748a223cf7dc" },
   "mason.nvim": { "branch": "main", "commit": "44d1e90e1f66e077268191e3ee9d2ac97cc18e65" },
   "mini.icons": { "branch": "main", "commit": "397ed3807e96b59709ef3292f0a3e253d5c1dc0a" },
-  "mini.nvim": { "branch": "main", "commit": "ca9adcfc4e796b292cc9072f4952318ef5a7f6c0" },
+  "mini.nvim": { "branch": "main", "commit": "dbb073bd2ed4a7bb35daafc7989567f0ff1426ee" },
   "neo-tree.nvim": { "branch": "main", "commit": "f3df514fff2bdd4318127c40470984137f87b62e" },
   "neoconf.nvim": { "branch": "main", "commit": "bbe36f4d60ed096282f564ddae4e781e420a8270" },
   "noice.nvim": { "branch": "main", "commit": "7bfd942445fb63089b59f97ca487d605e715f155" },
@@ -65,5 +65,5 @@
   "venv-selector.nvim": { "branch": "main", "commit": "58bae72c84b9f7f864c879ec1896e384296f9ffb" },
   "vim-illuminate": { "branch": "master", "commit": "0d1e93684da00ab7c057410fecfc24f434698898" },
   "which-key.nvim": { "branch": "main", "commit": "fcbf4eea17cb299c02557d576f0d568878e354a4" },
-  "yazi.nvim": { "branch": "main", "commit": "776b4756437c981ef3a8ca7e6b127f9270bfb9d1" }
+  "yazi.nvim": { "branch": "main", "commit": "ebcc774362f98e21624dfeab3cdedd9fcfe337d7" }
 }
