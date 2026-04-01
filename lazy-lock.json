@@ -29,7 +29,7 @@
   "mason-tool-installer.nvim": { "branch": "main", "commit": "443f1ef8b5e6bf47045cb2217b6f748a223cf7dc" },
   "mason.nvim": { "branch": "main", "commit": "44d1e90e1f66e077268191e3ee9d2ac97cc18e65" },
   "mini.icons": { "branch": "main", "commit": "397ed3807e96b59709ef3292f0a3e253d5c1dc0a" },
-  "mini.nvim": { "branch": "main", "commit": "90c402eaf6c923b0c169b7325d7143a8766e8905" },
+  "mini.nvim": { "branch": "main", "commit": "3923662bf3d6ca49a9503f8d7196ea0450983e6a" },
   "neo-tree.nvim": { "branch": "main", "commit": "84c75e7a7e443586f60508d12fc50f90d9aee14e" },
   "neoconf.nvim": { "branch": "main", "commit": "bbe36f4d60ed096282f564ddae4e781e420a8270" },
   "noice.nvim": { "branch": "main", "commit": "7bfd942445fb63089b59f97ca487d605e715f155" },
@@ -64,5 +64,5 @@
   "tsc.nvim": { "branch": "main", "commit": "e083bcf1e54bc3af7df92b33235efb334e8c782c" },
   "vim-illuminate": { "branch": "master", "commit": "0d1e93684da00ab7c057410fecfc24f434698898" },
   "which-key.nvim": { "branch": "main", "commit": "fcbf4eea17cb299c02557d576f0d568878e354a4" },
-  "yazi.nvim": { "branch": "main", "commit": "e2644f2b09b7abaf941648cb20c1989920196e89" }
+  "yazi.nvim": { "branch": "main", "commit": "dbdebba5eb24e9046505fc3e9cbd2e25bd61baf9" }
 }
