@@ -20,3 +20,4 @@ return {
     open_for_directories = true,
   },
 }
+

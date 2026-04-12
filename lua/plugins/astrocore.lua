@@ -40,16 +40,11 @@ return {
     -- vim options can be configured here
     options = {
       opt = { -- vim.opt.<key>
-        clipboard = "unnamedplus",
         relativenumber = true, -- sets vim.opt.relativenumber
         number = true, -- sets vim.opt.number
         spell = false, -- sets vim.opt.spell
-        signcolumn = "auto", -- sets vim.opt.signcolumn to auto
+        signcolumn = "yes", -- sets vim.opt.signcolumn to yes
         wrap = false, -- sets vim.opt.wrap
-        iskeyword = vim.opt.iskeyword + { "-", "#" }, -- sets vim.opt.iskeyword
-        scrolloff = 5,
-        cmdheight = 1,
-        background = "light",
       },
       g = { -- vim.g.<key>
         -- configure global vim variables (vim.g)
