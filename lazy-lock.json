@@ -2,8 +2,8 @@
   "AstroNvim": { "branch": "main", "commit": "c399f7f46daa010db1b70f6f7062a6a85216e1de" },
   "LuaSnip": { "branch": "master", "commit": "642b0c595e11608b4c18219e93b88d7637af27bc" },
   "aerial.nvim": { "branch": "master", "commit": "645d108a5242ec7b378cbe643eb6d04d4223f034" },
-  "astrocommunity": { "branch": "main", "commit": "36463ca257e8aafadae0f1bccfa2bb929dc9bf70" },
-  "astrocore": { "branch": "main", "commit": "b061e0c185cd5fecbac7489151a98117ce799a47" },
+  "astrocommunity": { "branch": "main", "commit": "85c03394da14a527694e6366dfcf54e6593a654c" },
+  "astrocore": { "branch": "main", "commit": "a9e8285d30984dfd4edb96c7e772d463c84eba30" },
   "astrolsp": { "branch": "main", "commit": "ebc1676127b3bfbd46e3e26589b104853cac3730" },
   "astrotheme": { "branch": "main", "commit": "cf0e65a7b3ce2f830b052f4da937729eee1e7a7d" },
   "astroui": { "branch": "main", "commit": "920dd5df6629a9076a11ea10f0d21f4225203585" },
@@ -58,5 +58,5 @@
   "tsc.nvim": { "branch": "main", "commit": "e083bcf1e54bc3af7df92b33235efb334e8c782c" },
   "venv-selector.nvim": { "branch": "main", "commit": "bcb2f58533c59b01565285eba49693f00bc460f5" },
   "which-key.nvim": { "branch": "main", "commit": "fcbf4eea17cb299c02557d576f0d568878e354a4" },
-  "yazi.nvim": { "branch": "main", "commit": "7d864fd3ccc3fc8fc88ad7765f5a7a1aca76c8ec" }
+  "yazi.nvim": { "branch": "main", "commit": "6765fb12df66ea7bd65b040bfcfb2ecb53b10fb3" }
 }
