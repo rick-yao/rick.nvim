@@ -2,7 +2,7 @@
   "AstroNvim": { "branch": "main", "commit": "c399f7f46daa010db1b70f6f7062a6a85216e1de" },
   "LuaSnip": { "branch": "master", "commit": "642b0c595e11608b4c18219e93b88d7637af27bc" },
   "aerial.nvim": { "branch": "master", "commit": "645d108a5242ec7b378cbe643eb6d04d4223f034" },
-  "astrocommunity": { "branch": "main", "commit": "4521b6c0f95ab06f7ea72ba922f2dffe5b7f3553" },
+  "astrocommunity": { "branch": "main", "commit": "c55e6c12ea20b97cc8b31a103ba212f03754e162" },
   "astrocore": { "branch": "main", "commit": "a9e8285d30984dfd4edb96c7e772d463c84eba30" },
   "astrolsp": { "branch": "main", "commit": "ebc1676127b3bfbd46e3e26589b104853cac3730" },
   "astrotheme": { "branch": "main", "commit": "cf0e65a7b3ce2f830b052f4da937729eee1e7a7d" },
@@ -25,7 +25,7 @@
   "mason-tool-installer.nvim": { "branch": "main", "commit": "443f1ef8b5e6bf47045cb2217b6f748a223cf7dc" },
   "mason.nvim": { "branch": "main", "commit": "44d1e90e1f66e077268191e3ee9d2ac97cc18e65" },
   "mini.icons": { "branch": "main", "commit": "ff2e4f1d29f659cc2bad0f9256f2f6195c6b2428" },
-  "mini.nvim": { "branch": "main", "commit": "29447d7b0e1fc9bc9d0384953e63be3fae816736" },
+  "mini.nvim": { "branch": "main", "commit": "418ef4930ddabe80f449c6f1323f8b6abb172d1c" },
   "neo-tree.nvim": { "branch": "main", "commit": "84c75e7a7e443586f60508d12fc50f90d9aee14e" },
   "noice.nvim": { "branch": "main", "commit": "7bfd942445fb63089b59f97ca487d605e715f155" },
   "none-ls.nvim": { "branch": "main", "commit": "7f9301e416533b5d74e2fb3b1ce5059eeaed748b" },
@@ -58,5 +58,5 @@
   "tsc.nvim": { "branch": "main", "commit": "e083bcf1e54bc3af7df92b33235efb334e8c782c" },
   "venv-selector.nvim": { "branch": "main", "commit": "bcb2f58533c59b01565285eba49693f00bc460f5" },
   "which-key.nvim": { "branch": "main", "commit": "fcbf4eea17cb299c02557d576f0d568878e354a4" },
-  "yazi.nvim": { "branch": "main", "commit": "05a9dde18b9f3b67aeb2613551d85299c2329773" }
+  "yazi.nvim": { "branch": "main", "commit": "9f7073dfcf25cf246819030194fbaf2d5760053f" }
 }
