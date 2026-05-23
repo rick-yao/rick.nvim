@@ -20,6 +20,7 @@ return {
   { import = "astrocommunity.pack.python.base" },
   { import = "astrocommunity.pack.python.ruff" },
   { import = "astrocommunity.pack.nix" },
+  { import = "astrocommunity.pack.toml" },
   { import = "astrocommunity.utility.noice-nvim" },
   -- import/override with your plugins folder
 }
