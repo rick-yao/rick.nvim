@@ -58,5 +58,5 @@
   "tsc.nvim": { "branch": "main", "commit": "e083bcf1e54bc3af7df92b33235efb334e8c782c" },
   "venv-selector.nvim": { "branch": "main", "commit": "bcb2f58533c59b01565285eba49693f00bc460f5" },
   "which-key.nvim": { "branch": "main", "commit": "fcbf4eea17cb299c02557d576f0d568878e354a4" },
-  "yazi.nvim": { "branch": "main", "commit": "3902c5d06be1242e6000ef8166ee35fa768c8332" }
+  "yazi.nvim": { "branch": "main", "commit": "07f3351317c28daefb3cf1bc6ac9846acf13b4d5" }
 }
