@@ -1,5 +1,21 @@
-if true then return end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
+-- Enable OSC 52 clipboard sync via Ghostty terminal
+-- This sends yanked text to the local macOS clipboard over SSH
+if vim.fn.executable "pbcopy" == 0 then
+  local function osc52_copy(data)
+    local encoded = vim.base64.encode(table.concat(data, "\n"))
+    io.write(string.format("\027]52;c;%s\027\\", encoded))
+    io.flush()
+  end
 
--- This will run last in the setup process.
--- This is just pure lua so anything that doesn't
--- fit in the normal config locations above can go here
+  vim.g.clipboard = {
+    name = "osc52",
+    copy = {
+      ["+"] = osc52_copy,
+      ["*"] = osc52_copy,
+    },
+    paste = {
+      ["+"] = function() return {}, vim.fn.getreg "+" end,
+      ["*"] = function() return {}, vim.fn.getreg "*" end,
+    },
+  }
+end
