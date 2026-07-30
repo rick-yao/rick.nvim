@@ -19,3 +19,10 @@ if vim.fn.executable "pbcopy" == 0 then
     },
   }
 end
+
+-- Treat .json files as JSON with comments throughout Neovim.
+vim.filetype.add {
+  extension = {
+    json = "jsonc",
+  },
+}
