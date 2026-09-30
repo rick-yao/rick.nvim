@@ -2,7 +2,7 @@
   "AstroNvim": { "branch": "main", "commit": "aa0545fc8357009fc8a67e6cd93e7f8544e3aba9" },
   "LuaSnip": { "branch": "master", "commit": "642b0c595e11608b4c18219e93b88d7637af27bc" },
   "aerial.nvim": { "branch": "master", "commit": "645d108a5242ec7b378cbe643eb6d04d4223f034" },
-  "astrocommunity": { "branch": "main", "commit": "26fb6377ab93e5a93251261fd66bf8415b636138" },
+  "astrocommunity": { "branch": "main", "commit": "68db6e14a8ed52cf7ad8ec260fd3128f1f34fe02" },
   "astrocore": { "branch": "main", "commit": "4977992a80f1279afad77eec9fcf94680e1468f8" },
   "astrolsp": { "branch": "main", "commit": "0ca1ed9a2536c9eaf78d5f3e7b92bda0dbd404eb" },
   "astrotheme": { "branch": "main", "commit": "744e520fcb300980a4e5ea32c508128c790ecc73" },
@@ -49,7 +49,7 @@
   "plenary.nvim": { "branch": "master", "commit": "74b06c6c75e4eeb3108ec01852001636d85a932b" },
   "presence.nvim": { "branch": "main", "commit": "87c857a56b7703f976d3a5ef15967d80508df6e6" },
   "resession.nvim": { "branch": "master", "commit": "cc819b0489938d03e4f3532a583354f0287c015b" },
-  "schemastore.nvim": { "branch": "main", "commit": "b5d7de0d5be19ff7c1df71fa4ad1ea63ba1d2ea6" },
+  "schemastore.nvim": { "branch": "main", "commit": "5553e77b8628b7a08fc2a5135c17647f11d828ee" },
   "smart-splits.nvim": { "branch": "master", "commit": "32f67888ac71942442fdab3819864a10449dfc41" },
   "snacks.nvim": { "branch": "main", "commit": "e6fd58c82f2f3fcddd3fe81703d47d6d48fc7b9f" },
   "todo-comments.nvim": { "branch": "main", "commit": "31e3c38ce9b29781e4422fc0322eb0a21f4e8668" },
@@ -58,5 +58,5 @@
   "tsc.nvim": { "branch": "main", "commit": "e083bcf1e54bc3af7df92b33235efb334e8c782c" },
   "venv-selector.nvim": { "branch": "main", "commit": "bcb2f58533c59b01565285eba49693f00bc460f5" },
   "which-key.nvim": { "branch": "main", "commit": "fcbf4eea17cb299c02557d576f0d568878e354a4" },
-  "yazi.nvim": { "branch": "main", "commit": "bc2f9d0d4d7f05f9c1bee0c3482e5ffd341ebfb7" }
+  "yazi.nvim": { "branch": "main", "commit": "688d1d48ef91bb1d29092d808a512f3293dfb34d" }
 }
